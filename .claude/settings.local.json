@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(nul)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout 5:*)",
+      "Bash(ping:*)",
+      "Bash(dir:*)",
+      "Bash(if not exist srccomponents mkdir srccomponents)",
+      "Bash(if not exist srctypes mkdir srctypes)",
+      "Bash(if not exist srcutils mkdir srcutils)",
+      "Bash(if not exist srcservices mkdir srcservices)",
+      "Bash(taskkill:*)",
+      "Bash(exit 0)",
+      "Bash(curl:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
